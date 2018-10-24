@@ -1,5 +1,5 @@
-create table Students(region STRING, distrito STRING, Sid INT, nombreEscuela STRING, nivelEs
-cuela STRING, sexo STRING, STid INT) row format delimited fields terminated by ',';
+create table Students(region STRING, distrito STRING, eid INT, nombreEscuela STRING, nivelEs
+cuela STRING, sexo STRING, Sid INT) row format delimited fields terminated by ',';
 
 create table escuelas(regionEducativa STRING, distritoEscolar STRING, municipio STRING, Escu
 ela_ID INT, Escuela_Nombre STRING, Nivel STRING, CollegeBoard_ID INT) row format delimited fields 
